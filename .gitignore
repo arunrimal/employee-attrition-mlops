@@ -1,0 +1,67 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pym
+*.pdb
+*.egg-info/
+dist/
+build/
+.eggs/
+.python-version
+
+# Virtual environments
+.env
+.venv
+env/
+env.bak/
+venv/
+venv.bak/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb_checkpoints
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Data artifacts
+data/processed/
+data/*.parquet
+
+# MLflow
+mlruns/
+mlflow.db
+
+# Feast runtime and local store
+attrition_feature_store/feature_repo/data/
+attrition_feature_store/feature_repo/*.db
+
+# Test results
+.coverage
+.cache
+.pytest_cache/
+*.log
+
+# Python packaging
+pip-wheel-metadata/
+*.egg
+*.egg-info/
+
+# Temporary files
+*.tmp
+*.temp
+*~
+
+# Notebook checkpoints
+*.ipynb_checkpoints
