@@ -1,5 +1,6 @@
 # entity.py
-from feast import Entity, ValueType
+from feast import Entity
+from feast.value_type import ValueType
 
 employee = Entity(
     name="employee_id",
