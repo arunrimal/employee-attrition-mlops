@@ -17,7 +17,7 @@ employee = Entity(
 # FileSource for cleaned attrition data. The path is relative to the feature repo root.
 attrition_source = FileSource(
     name="attrition_source",
-    path="../../data/employee_attrition.parquet",
+    path="../../data/processed/employee_attrition.parquet",
     timestamp_field="event_timestamp",
 )
 

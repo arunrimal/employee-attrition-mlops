@@ -12,10 +12,10 @@ from datetime import datetime
 from pathlib import Path
 
 # Paths
-cleaned_csv = Path("data/EmployeeAttrition.csv")
-train_csv = Path("data/train.csv")
-test_csv = Path("data/test.csv")
-out_path = Path("data/employee_attrition.parquet")
+cleaned_csv = Path("../data/raw/EmployeeAttrition.csv")
+train_csv = Path("../data/raw/train.csv")
+test_csv = Path("../data/raw/test.csv")
+out_path = Path("../data/processed/employee_attrition.parquet")
 
 # Load cleaned CSV if available, else concatenate raw train/test
 if cleaned_csv.exists():
